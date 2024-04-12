@@ -71,3 +71,6 @@ app.listen(PORT, () => {
   console.log(`App running on PORT ${PORT}`);
 });
 
+app.get('/', function (req,res){
+    res.send('Hello World')
+})
