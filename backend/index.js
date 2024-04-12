@@ -9,7 +9,7 @@ const connectionString =
 mongoose
   .connect(connectionString)
   .then(() => console.log("Connected to DB"))
-  .catch((err) => console.log("Got an errpr", err));
+  .catch((err) => console.log("Got an error", err));
 
 const app = express();
 
